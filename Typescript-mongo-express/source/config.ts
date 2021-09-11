@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 const APP_NAME = "SAMPLE";
+const SECRET_KEY = process.env.SECRET_KEY || "TEST_KEY";
+
 //For mongo db
 
 const MONGO_OPTIONS = {
@@ -27,6 +29,7 @@ const config = {
   dbOptions: MONGO_OPTIONS,
   dbUsername: MONGO_USERNAME,
   dbPassword: MONGO_PASSWORD,
+  SECRET_KEY,
 };
 
 export default config;
