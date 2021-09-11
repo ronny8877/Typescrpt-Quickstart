@@ -1,0 +1,8 @@
+node_modules/**/*
+build/**/*
+certs/**/*
+logs/**/*
+backup/
+.env/
+.vscode/
+package-lock.json

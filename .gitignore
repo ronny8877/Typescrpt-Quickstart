@@ -1,0 +1,5 @@
+**node_modules/**
+**build/**
+**backup/**
+**.env
+**package-lock.json/**
